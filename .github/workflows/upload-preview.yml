@@ -4,6 +4,7 @@ on:
     workflows: [Preview]
     types:
     - completed
+  workflow_dispatch:
 jobs:
   upload:
     name: Upload
